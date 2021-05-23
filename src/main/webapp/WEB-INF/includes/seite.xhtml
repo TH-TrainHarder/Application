@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="de"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <head>
+        <title>
+            <ui:insert name="title" />
+        </title>
+
+        <ui:include src="/WEB-INF/includes/head.xhtml" />
+    </head>
+
+    <body>
+        <ui:include src="/WEB-INF/includes/header.xhtml" />
+
+        <ui:insert name="content" />
+
+        <ui:include src="/WEB-INF/includes/footer.xhtml" />
+    </body>
+</html>

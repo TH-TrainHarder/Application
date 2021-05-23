@@ -1,1 +1,2 @@
 # TrainHarder/Application
+![Build](https://github.com/TH-TrainHarder/Application/workflows/Build/badge.svg) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=TH-TrainHarder_Application&metric=coverage)](https://sonarcloud.io/dashboard?id=TH-TrainHarder_Application)

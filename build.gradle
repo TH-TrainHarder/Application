@@ -18,7 +18,7 @@ repositories {
 }
 
 war {
-    archiveFileName = 'Application.war'
+    archiveFileName = 'ROOT.war'
 }
 
 configurations {
@@ -28,7 +28,7 @@ configurations {
 dependencies {
     implementation "org.projectlombok:lombok:1.18.16",
             "com.google.guava:guava:28.0-jre",
-            "org.primefaces:primefaces:7.0",
+            "org.primefaces:primefaces:10.0.0",
             "javax:javaee-api:8.0",
             "javax.servlet:javax.servlet-api:3.1.0",
             "javax.security.enterprise:javax.security.enterprise-api:1.0",
